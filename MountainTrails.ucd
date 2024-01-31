@@ -1,0 +1,3087 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>15.0.8374</SavedWith>
+    <CreatedWith>15.0.8374</CreatedWith>
+  </VersionInfo>
+  <Project>
+    <TrackChanges>false</TrackChanges>
+  </Project>
+  <TopLevelElement>
+    <RefID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</UniqueID>
+    <Name>MountainTrails</Name>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</UniqueID>
+    <UserID>UC-1</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Създаване на публикация</Name>
+    <Description>Потребителите могат да създават нови публикации във форума, като за всяка такава трябва да добавят кратко заглавие, посочващо темата, която се засяга, съдържание на публикацията под формата на текст, както и графични изображения (снимки, клипове и т.н.)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8\'f2\'e5 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'f1\'fa\'e7\'e4\'e0\'e2\'e0\'f2 \'ed\'ee\'e2\'e8 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'e8 \'e2\'fa\'e2 \'f4\'ee\'f0\'f3\'ec\'e0, \'ea\'e0\'f2\'ee \'e7\'e0 \'e2\'f1\'ff\'ea\'e0 \'f2\'e0\'ea\'e0\'e2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff\'f2 \'ea\'f0\'e0\'f2\'ea\'ee \'e7\'e0\'e3\'eb\'e0\'e2\'e8\'e5, \'ef\'ee\'f1\'ee\'f7\'e2\'e0\'f9\'ee \'f2\'e5\'ec\'e0\'f2\'e0, \'ea\'ee\'ff\'f2\'ee \'f1\'e5 \'e7\'e0\'f1\'ff\'e3\'e0, \'f1\'fa\'e4\'fa\'f0\'e6\'e0\'ed\'e8\'e5 \'ed\'e0 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff\'f2\'e0 \'ef\'ee\'e4 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'ed\'e0 \'f2\'e5\'ea\'f1\'f2, \'ea\'e0\'ea\'f2\'ee \'e8 \'e3\'f0\'e0\'f4\'e8\'f7\'ed\'e8 \'e8\'e7\'ee\'e1\'f0\'e0\'e6\'e5\'ed\'e8\'ff (\'f1\'ed\'e8\'ec\'ea\'e8, \'ea\'eb\'e8\'ef\'ee\'e2\'e5 \'e8 \'f2.\'ed.)\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions>Публикацията е публикувана във форума и останалите потребители могат да я коментират и рецензират.</PostConditions>
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2023-05-21T14:56:43.3016605+03:00</DateAdded>
+    <DateModified>2023-05-21T15:03:26.2362678+03:00</DateModified>
+  </UseCase>
+  <Actor>
+    <UniqueID>A-6c0cf6ec-3aa3-4edf-a681-97563e84a31d</UniqueID>
+    <UserID>A-1</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Нерегистриран потребител</Name>
+    <Sequence>0</Sequence>
+    <DateAdded>2023-05-21T12:45:38.3851696+03:00</DateAdded>
+    <DateModified>2023-05-21T12:45:48.613458+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-342edc34-64d3-44f6-a93e-22b8a0dd3a6c</UniqueID>
+    <UserID>A-2</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Обикновен (регистриран) потребител</Name>
+    <Sequence>1</Sequence>
+    <DateAdded>2023-05-21T12:45:50.453389+03:00</DateAdded>
+    <DateModified>2023-05-21T12:46:13.4008943+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-62fe0a6d-e0bf-4ef9-8ed3-3731308d0167</UniqueID>
+    <UserID>A-3</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Потребител от тип туристическо дружество</Name>
+    <Sequence>2</Sequence>
+    <DateAdded>2023-05-21T12:46:54.5652422+03:00</DateAdded>
+    <DateModified>2023-05-21T12:47:00.3331162+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-596d4707-8524-4257-b7c4-5cfe6a30f784</UniqueID>
+    <UserID>A-4</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Потребител от тип тип служител от Планинската спасителна служба (ПСС)</Name>
+    <Sequence>3</Sequence>
+    <DateAdded>2023-05-21T12:47:04.5316406+03:00</DateAdded>
+    <DateModified>2023-05-21T12:47:31.9315345+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-a8bfb5e8-6768-48c5-9c12-a328bf7abfab</UniqueID>
+    <UserID>A-5</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Потребител от тип планински водач</Name>
+    <Sequence>4</Sequence>
+    <DateAdded>2023-05-21T12:47:33.3833134+03:00</DateAdded>
+    <DateModified>2023-05-21T12:47:57.413209+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-3030824c-e465-4210-825f-568acc0d5df3</UniqueID>
+    <UserID>A-6</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Потребител от тип планинар, поставящ и обновяващ  маркировки (маркировач)</Name>
+    <Sequence>5</Sequence>
+    <DateAdded>2023-05-21T12:48:17.6459726+03:00</DateAdded>
+    <DateModified>2023-05-21T12:48:23.1960497+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-ee81b926-686a-422a-830b-0dafa513f78d</UniqueID>
+    <UserID>A-7</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Администратор</Name>
+    <Sequence>6</Sequence>
+    <DateAdded>2023-05-21T12:48:24.579171+03:00</DateAdded>
+    <DateModified>2023-05-21T12:48:29.7281691+03:00</DateModified>
+  </Actor>
+  <UCActor>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+    <ActorID>A-342edc34-64d3-44f6-a93e-22b8a0dd3a6c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+    <ActorID>A-3030824c-e465-4210-825f-568acc0d5df3</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+    <ActorID>A-a8bfb5e8-6768-48c5-9c12-a328bf7abfab</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+    <ActorID>A-596d4707-8524-4257-b7c4-5cfe6a30f784</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+    <ActorID>A-62fe0a6d-e0bf-4ef9-8ed3-3731308d0167</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+    <ActorID>A-ee81b926-686a-422a-830b-0dafa513f78d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-66f5e881-0c88-47ed-be65-666cd66b8562</UniqueID>
+    <ParentID>UC-8800b198-e1a1-484d-a24d-ebabb180b9cb</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</UniqueID>
+    <UserID>REQ-1</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Регистрация на обикновен потребител</Name>
+    <Description>Обикновен потребител може да се регистрира в системата като въведе имена, имейл и парола.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ce\'e1\'e8\'ea\'ed\'ee\'e2\'e5\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e5 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0 \'e2 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ea\'e0\'f2\'ee \'e2\'fa\'e2\'e5\'e4\'e5 \'e8\'ec\'e5\'ed\'e0, \'e8\'ec\'e5\'e9\'eb \'e8 \'ef\'e0\'f0\'ee\'eb\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:15:21.0259024+03:00</DateAdded>
+    <DateModified>2023-06-01T00:54:39.0285489+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</UniqueID>
+    <UserID>REQ-2</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Регистрация на потребител от тип туристическо дружество</Name>
+    <Description>Потребител може да се регистрира като собственик на туристическо дружество като въведе името на дружеството, имейл и парола и попълни информация от документите за организацията, с цел верификация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e5 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0 \'ea\'e0\'f2\'ee \'f1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'e8\'ea \'ed\'e0 \'f2\'f3\'f0\'e8\'f1\'f2\'e8\'f7\'e5\'f1\'ea\'ee \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee \'ea\'e0\'f2\'ee \'e2\'fa\'e2\'e5\'e4\'e5 \'e8\'ec\'e5\'f2\'ee \'ed\'e0 \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee\'f2\'ee, \'e8\'ec\'e5\'e9\'eb \'e8 \'ef\'e0\'f0\'ee\'eb\'e0 \'e8 \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'ee\'f2 \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e8\'f2\'e5 \'e7\'e0 \'ee\'f0\'e3\'e0\'ed\'e8\'e7\'e0\'f6\'e8\'ff\'f2\'e0, \'f1 \'f6\'e5\'eb \'e2\'e5\'f0\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:19:49.138215+03:00</DateAdded>
+    <DateModified>2023-06-03T16:30:33.8374858+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</UniqueID>
+    <UserID>REQ-3</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Регистрация на потребител от тип служител от Планинската спасителна служба (ПСС)</Name>
+    <Description>Потребител може да се регистрира като служител от Планинската спасителна служба като въведе име, имейл и парола и  попълни информация от документа си за квалификация,с цел верификация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e5 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0 \'ea\'e0\'f2\'ee \'f1\'eb\'f3\'e6\'e8\'f2\'e5\'eb \'ee\'f2 \'cf\'eb\'e0\'ed\'e8\'ed\'f1\'ea\'e0\'f2\'e0 \'f1\'ef\'e0\'f1\'e8\'f2\'e5\'eb\'ed\'e0 \'f1\'eb\'f3\'e6\'e1\'e0 \'ea\'e0\'f2\'ee \'e2\'fa\'e2\'e5\'e4\'e5 \'e8\'ec\'e5, \'e8\'ec\'e5\'e9\'eb \'e8 \'ef\'e0\'f0\'ee\'eb\'e0 \'e8  \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'ee\'f2 \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0 \'f1\'e8 \'e7\'e0 \'ea\'e2\'e0\'eb\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff,\'f1 \'f6\'e5\'eb \'e2\'e5\'f0\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:20:21.7781353+03:00</DateAdded>
+    <DateModified>2023-06-03T16:30:44.3194401+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</UniqueID>
+    <UserID>REQ-4</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Регистрация на потребител от тип планински водач</Name>
+    <Description>Потребител може да се регистрира като планински водач като въведе име, имейл и парола и  попълни информация от своя лиценз, с цел верификация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e5 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0 \'ea\'e0\'f2\'ee \'ef\'eb\'e0\'ed\'e8\'ed\'f1\'ea\'e8 \'e2\'ee\'e4\'e0\'f7 \'ea\'e0\'f2\'ee \'e2\'fa\'e2\'e5\'e4\'e5 \'e8\'ec\'e5, \'e8\'ec\'e5\'e9\'eb \'e8 \'ef\'e0\'f0\'ee\'eb\'e0 \'e8  \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'ee\'f2 \'f1\'e2\'ee\'ff \'eb\'e8\'f6\'e5\'ed\'e7, \'f1 \'f6\'e5\'eb \'e2\'e5\'f0\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:21:36.2107025+03:00</DateAdded>
+    <DateModified>2023-06-03T16:35:11.1793372+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</UniqueID>
+    <UserID>REQ-5</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Регистрация на потребител от тип планинар, поставящ и обновяващ  маркировки (маркировач)</Name>
+    <Description>Потребител може да се регистрира като планинар, поставящ и обновяващ маркировки като въведе име, имейл, парола и  попълни информация от своите документи за извършваната дейност,с цел верификация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e5 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0 \'ea\'e0\'f2\'ee \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0, \'ef\'ee\'f1\'f2\'e0\'e2\'ff\'f9 \'e8 \'ee\'e1\'ed\'ee\'e2\'ff\'e2\'e0\'f9 \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e8 \'ea\'e0\'f2\'ee \'e2\'fa\'e2\'e5\'e4\'e5 \'e8\'ec\'e5, \'e8\'ec\'e5\'e9\'eb, \'ef\'e0\'f0\'ee\'eb\'e0 \'e8  \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'ee\'f2 \'f1\'e2\'ee\'e8\'f2\'e5 \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e8 \'e7\'e0 \'e8\'e7\'e2\'fa\'f0\'f8\'e2\'e0\'ed\'e0\'f2\'e0 \'e4\'e5\'e9\'ed\'ee\'f1\'f2,\'f1 \'f6\'e5\'eb \'e2\'e5\'f0\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:23:44.682295+03:00</DateAdded>
+    <DateModified>2023-06-03T16:35:20.2156043+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</UniqueID>
+    <UserID>REQ-6</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Търсене на пътеки по указана дестинация или местност</Name>
+    <Description>Всеки потребител може да зададе желана крайна дестинация или местност в търсачка под формата на текст.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e7\'e0\'e4\'e0\'e4\'e5 \'e6\'e5\'eb\'e0\'ed\'e0 \'ea\'f0\'e0\'e9\'ed\'e0 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff \'e8\'eb\'e8 \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2 \'e2 \'f2\'fa\'f0\'f1\'e0\'f7\'ea\'e0 \'ef\'ee\'e4 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'ed\'e0 \'f2\'e5\'ea\'f1\'f2.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:25:42.6313849+03:00</DateAdded>
+    <DateModified>2023-06-03T16:19:25.6328765+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</UniqueID>
+    <UserID>REQ-7</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на пътеки до указана дестинация</Name>
+    <Description>Системата визуализира възможните маршрути (пътеки) до въведената дестинация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'e8\'f2\'e5 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8 (\'ef\'fa\'f2\'e5\'ea\'e8) \'e4\'ee \'e2\'fa\'e2\'e5\'e4\'e5\'ed\'e0\'f2\'e0 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:27:20.7772326+03:00</DateAdded>
+    <DateModified>2023-05-21T09:52:44.8588882+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</UniqueID>
+    <UserID>REQ-8</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на пътека</Name>
+    <Description>Системата визуализира информация за пътека, която включва - описание на основните части на пътеката, поддържаност на пътеката, ниво на трудност, тип релеф, нужна екипировка, мероприятия за този маршрут, препратка към външна карта с пътеката, маркировка, средно време за преход, рецензии, актуална прогноза за време и предупреждения за неподходящо време, при наличие на такива.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'ef\'fa\'f2\'e5\'ea\'e0, \'ea\'ee\'ff\'f2\'ee \'e2\'ea\'eb\'fe\'f7\'e2\'e0 - \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ed\'e0 \'ee\'f1\'ed\'ee\'e2\'ed\'e8\'f2\'e5 \'f7\'e0\'f1\'f2\'e8 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ef\'ee\'e4\'e4\'fa\'f0\'e6\'e0\'ed\'ee\'f1\'f2 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ed\'e8\'e2\'ee \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2, \'f2\'e8\'ef \'f0\'e5\'eb\'e5\'f4, \'ed\'f3\'e6\'ed\'e0 \'e5\'ea\'e8\'ef\'e8\'f0\'ee\'e2\'ea\'e0, \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff \'e7\'e0 \'f2\'ee\'e7\'e8 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ef\'f0\'e5\'ef\'f0\'e0\'f2\'ea\'e0 \'ea\'fa\'ec \'e2\'fa\'ed\'f8\'ed\'e0 \'ea\'e0\'f0\'f2\'e0 \'f1 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e0, \'f1\'f0\'e5\'e4\'ed\'ee \'e2\'f0\'e5\'ec\'e5 \'e7\'e0 \'ef\'f0\'e5\'f5\'ee\'e4, \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'e8, \'e0\'ea\'f2\'f3\'e0\'eb\'ed\'e0 \'ef\'f0\'ee\'e3\'ed\'ee\'e7\'e0 \'e7\'e0 \'e2\'f0\'e5\'ec\'e5 \'e8 \'ef\'f0\'e5\'e4\'f3\'ef\'f0\'e5\'e6\'e4\'e5\'ed\'e8\'ff \'e7\'e0 \'ed\'e5\'ef\'ee\'e4\'f5\'ee\'e4\'ff\'f9\'ee \'e2\'f0\'e5\'ec\'e5, \'ef\'f0\'e8 \'ed\'e0\'eb\'e8\'f7\'e8\'e5 \'ed\'e0 \'f2\'e0\'ea\'e8\'e2\'e0.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T11:28:03.0753692+03:00</DateAdded>
+    <DateModified>2023-06-03T16:46:04.901414+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</UniqueID>
+    <UserID>REQ-8.1</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Преглед на актуална прогноза за време</Name>
+    <Description>Системата предоставя прогноза за време за тридневен период за избран маршрут, като информацията се взема от външната система sinoptik.bg.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'ef\'f0\'ee\'e3\'ed\'ee\'e7\'e0 \'e7\'e0 \'e2\'f0\'e5\'ec\'e5 \'e7\'e0 \'f2\'f0\'e8\'e4\'ed\'e5\'e2\'e5\'ed \'ef\'e5\'f0\'e8\'ee\'e4 \'e7\'e0 \'e8\'e7\'e1\'f0\'e0\'ed \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ea\'e0\'f2\'ee \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff\'f2\'e0 \'f1\'e5 \'e2\'e7\'e5\'ec\'e0 \'ee\'f2 \'e2\'fa\'ed\'f8\'ed\'e0\'f2\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0 sinoptik.bg.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T12:13:01.6865779+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:03.2077446+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</UniqueID>
+    <UserID>REQ-8.2</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Преглед на рецензии за пътека</Name>
+    <Description>Всеки потребител може да прегледа рецензии за избрана пътека.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'e8 \'e7\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:10:36.5489246+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:07.489398+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</UniqueID>
+    <UserID>REQ-8.3</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Добавяне на рецензия на пътека</Name>
+    <Description>Регистриран потребител, който не е от тип поставящи маркировки, може да добави рецензия за пътека като добави писмен коментар.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb, \'ea\'ee\'e9\'f2\'ee \'ed\'e5 \'e5 \'ee\'f2 \'f2\'e8\'ef \'ef\'ee\'f1\'f2\'e0\'e2\'ff\'f9\'e8 \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e8, \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'e8 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'ff \'e7\'e0 \'ef\'fa\'f2\'e5\'ea\'e0 \'ea\'e0\'f2\'ee \'e4\'ee\'e1\'e0\'e2\'e8 \'ef\'e8\'f1\'ec\'e5\'ed \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:11:07.9269623+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:10.871215+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</UniqueID>
+    <UserID>REQ-8.4</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Добавяне на оценка на пътека</Name>
+    <Description>Регистриран потребител може да оцени пътека  по скала от 1 до 5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f6\'e5\'ed\'e8 \'ef\'fa\'f2\'e5\'ea\'e0  \'ef\'ee \'f1\'ea\'e0\'eb\'e0 \'ee\'f2 1 \'e4\'ee 5.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T13:13:20.7882099+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:19.7636986+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</UniqueID>
+    <UserID>REQ-8.5</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Коментар на рецензия</Name>
+    <Description>Регистриран потребител може да коментира чужда рецензия на пътека.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e8\'f0\'e0 \'f7\'f3\'e6\'e4\'e0 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'ff \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:14:50.6135925+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:24.3166572+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</UniqueID>
+    <UserID>REQ-8.6</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Оценка на рецензия</Name>
+    <Description>Регистриран потребител може да оцени чужда рецензия за пътека по скала от 1 до 5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f6\'e5\'ed\'e8 \'f7\'f3\'e6\'e4\'e0 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'ff \'e7\'e0 \'ef\'fa\'f2\'e5\'ea\'e0 \'ef\'ee \'f1\'ea\'e0\'eb\'e0 \'ee\'f2 1 \'e4\'ee 5.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:15:16.2899403+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:29.5443783+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</UniqueID>
+    <UserID>REQ-8.7</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Визуализиране на предупреждение</Name>
+    <Description>Системата визуализира предупредително съобщение за избрана пътека за неподходящо време или друг тип опасност като лавина или препятствие на пътеката, ако съществува такова.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ef\'f0\'e5\'e4\'f3\'ef\'f0\'e5\'e4\'e8\'f2\'e5\'eb\'ed\'ee \'f1\'fa\'ee\'e1\'f9\'e5\'ed\'e8\'e5 \'e7\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0 \'e7\'e0 \'ed\'e5\'ef\'ee\'e4\'f5\'ee\'e4\'ff\'f9\'ee \'e2\'f0\'e5\'ec\'e5 \'e8\'eb\'e8 \'e4\'f0\'f3\'e3 \'f2\'e8\'ef \'ee\'ef\'e0\'f1\'ed\'ee\'f1\'f2 \'ea\'e0\'f2\'ee \'eb\'e0\'e2\'e8\'ed\'e0 \'e8\'eb\'e8 \'ef\'f0\'e5\'ef\'ff\'f2\'f1\'f2\'e2\'e8\'e5 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'e0\'ea\'ee \'f1\'fa\'f9\'e5\'f1\'f2\'e2\'f3\'e2\'e0 \'f2\'e0\'ea\'ee\'e2\'e0.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:15:50.6881338+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:34.4280156+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</UniqueID>
+    <UserID>REQ-15</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на дестинации при зададена местност</Name>
+    <Description>При търсенето на местност, системата визуализира възможните крайни дестинации в нея.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8 \'f2\'fa\'f0\'f1\'e5\'ed\'e5\'f2\'ee \'ed\'e0 \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2, \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'e8\'f2\'e5 \'ea\'f0\'e0\'e9\'ed\'e8 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'e8 \'e2 \'ed\'e5\'ff.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:17:34.2071834+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:47.4664392+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</UniqueID>
+    <UserID>REQ-16</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглеждане на флора и фауна на местност</Name>
+    <Description>При избиране на местност или конкретна дестинация, системата предоставя информация за характерните растителни и животински видове в местността на избраната дестинация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'cf\'f0\'e8 \'e8\'e7\'e1\'e8\'f0\'e0\'ed\'e5 \'ed\'e0 \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2 \'e8\'eb\'e8 \'ea\'ee\'ed\'ea\'f0\'e5\'f2\'ed\'e0 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff, \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'f5\'e0\'f0\'e0\'ea\'f2\'e5\'f0\'ed\'e8\'f2\'e5 \'f0\'e0\'f1\'f2\'e8\'f2\'e5\'eb\'ed\'e8 \'e8 \'e6\'e8\'e2\'ee\'f2\'e8\'ed\'f1\'ea\'e8 \'e2\'e8\'e4\'ee\'e2\'e5 \'e2 \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2\'f2\'e0 \'ed\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0\'f2\'e0 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2023-05-20T13:19:42.2592949+03:00</DateAdded>
+    <DateModified>2023-05-21T12:21:02.5784581+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</UniqueID>
+    <UserID>REQ-17</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Показване на хижи в близост до търсената дестинация</Name>
+    <Description>Системата визуализира списък от хижите в близост до потърсена дестинация или местност.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f1\'ef\'e8\'f1\'fa\'ea \'ee\'f2 \'f5\'e8\'e6\'e8\'f2\'e5 \'e2 \'e1\'eb\'e8\'e7\'ee\'f1\'f2 \'e4\'ee \'ef\'ee\'f2\'fa\'f0\'f1\'e5\'ed\'e0 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff \'e8\'eb\'e8 \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2.\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:21:42.4477258+03:00</DateAdded>
+    <DateModified>2023-05-21T09:53:59.0960045+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</UniqueID>
+    <UserID>REQ-18</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Показване на близки маршрути до търсената дестинация</Name>
+    <Description>При избор на желана дестинация се показват допълнителни такива, които са в близост до нея - намират се в същия район или някъде около него.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8 \'e8\'e7\'e1\'ee\'f0 \'ed\'e0 \'e6\'e5\'eb\'e0\'ed\'e0 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff \'f1\'e5 \'ef\'ee\'ea\'e0\'e7\'e2\'e0\'f2 \'e4\'ee\'ef\'fa\'eb\'ed\'e8\'f2\'e5\'eb\'ed\'e8 \'f2\'e0\'ea\'e8\'e2\'e0, \'ea\'ee\'e8\'f2\'ee \'f1\'e0 \'e2 \'e1\'eb\'e8\'e7\'ee\'f1\'f2 \'e4\'ee \'ed\'e5\'ff - \'ed\'e0\'ec\'e8\'f0\'e0\'f2 \'f1\'e5 \'e2 \'f1\'fa\'f9\'e8\'ff \'f0\'e0\'e9\'ee\'ed \'e8\'eb\'e8 \'ed\'ff\'ea\'fa\'e4\'e5 \'ee\'ea\'ee\'eb\'ee \'ed\'e5\'e3\'ee.\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:22:48.0342716+03:00</DateAdded>
+    <DateModified>2023-05-21T09:54:09.7213994+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</UniqueID>
+    <UserID>REQ-19</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Изтегляне на карта на пътека</Name>
+    <Description>Всеки потребител може да изтегли карта за избрана пътека под формата на снимка или маршрут, който може да се използва в джипиес или друго навигационно устройство, използващо сателити.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'f2\'e5\'e3\'eb\'e8 \'ea\'e0\'f0\'f2\'e0 \'e7\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0 \'ef\'ee\'e4 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'ed\'e0 \'f1\'ed\'e8\'ec\'ea\'e0 \'e8\'eb\'e8 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ea\'ee\'e9\'f2\'ee \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e5 \'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0 \'e2 \'e4\'e6\'e8\'ef\'e8\'e5\'f1 \'e8\'eb\'e8 \'e4\'f0\'f3\'e3\'ee \'ed\'e0\'e2\'e8\'e3\'e0\'f6\'e8\'ee\'ed\'ed\'ee \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'ee, \'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0\'f9\'ee \'f1\'e0\'f2\'e5\'eb\'e8\'f2\'e8.\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:25:15.7363878+03:00</DateAdded>
+    <DateModified>2023-06-03T16:36:56.972994+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7023c332-f97e-4036-8cf1-86d883332b96</UniqueID>
+    <UserID>REQ-20</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Запазване на маршрут като любим</Name>
+    <Description>Регистриран потребител може да запазва избран маршрут като любим, като той ще бъде съхраняван в специална секция за любими маршрути.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e7\'e0\'ef\'e0\'e7\'e2\'e0 \'e8\'e7\'e1\'f0\'e0\'ed \'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'ea\'e0\'f2\'ee \'eb\'fe\'e1\'e8\'ec, \'ea\'e0\'f2\'ee \'f2\'ee\'e9 \'f9\'e5 \'e1\'fa\'e4\'e5 \'f1\'fa\'f5\'f0\'e0\'ed\'ff\'e2\'e0\'ed \'e2 \'f1\'ef\'e5\'f6\'e8\'e0\'eb\'ed\'e0 \'f1\'e5\'ea\'f6\'e8\'ff \'e7\'e0 \'eb\'fe\'e1\'e8\'ec\'e8 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8.\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2023-05-20T13:26:48.3482524+03:00</DateAdded>
+    <DateModified>2023-05-21T08:50:47.2913193+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</UniqueID>
+    <UserID>REQ-21</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на любими маршрути</Name>
+    <Description>Регистриран потребител може да преглежда секция с любими маршрути, които е запазил.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'f1\'e5\'ea\'f6\'e8\'ff \'f1 \'eb\'fe\'e1\'e8\'ec\'e8 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8, \'ea\'ee\'e8\'f2\'ee \'e5 \'e7\'e0\'ef\'e0\'e7\'e8\'eb.\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2023-05-20T13:27:25.264195+03:00</DateAdded>
+    <DateModified>2023-05-21T08:50:51.8022362+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</UniqueID>
+    <UserID>REQ-22</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на мероприятия</Name>
+    <Description>В отдел “Мероприятия” всеки потребител може да разгледа списък от актуални мероприятия за различни дестинации.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'cc\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff\f1\rdblquote  \f0\'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e0\'e7\'e3\'eb\'e5\'e4\'e0 \'f1\'ef\'e8\'f1\'fa\'ea \'ee\'f2 \'e0\'ea\'f2\'f3\'e0\'eb\'ed\'e8 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff \'e7\'e0 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8 \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'e8.\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:28:17.8895343+03:00</DateAdded>
+    <DateModified>2023-05-30T18:33:08.5552787+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</UniqueID>
+    <UserID>REQ-23</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Филтриране на мероприятия</Name>
+    <Description>В отдел “Мероприятия” всеки потребител може да филтрира мероприятията по дата, местност, дестинация и ниво на трудност на маршрута. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'cc\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff\f1\rdblquote  \f0\'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f4\'e8\'eb\'f2\'f0\'e8\'f0\'e0 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff\'f2\'e0 \'ef\'ee \'e4\'e0\'f2\'e0, \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2, \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff \'e8 \'ed\'e8\'e2\'ee \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2 \'ed\'e0 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0. \par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:30:06.0291052+03:00</DateAdded>
+    <DateModified>2023-05-30T18:17:37.5552233+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</UniqueID>
+    <UserID>REQ-24</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Записване за мероприятие</Name>
+    <Description>Потребител има възможност да се запише за избрано мероприятие при наличие на свободни места чрез попълване на форма, включваща трите имена, години, честота на ходене на походи и съответните данни за придружител, ако лицето е непълнолетно.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'f1\'e5 \'e7\'e0\'ef\'e8\'f8\'e5 \'e7\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5 \'ef\'f0\'e8 \'ed\'e0\'eb\'e8\'f7\'e8\'e5 \'ed\'e0 \'f1\'e2\'ee\'e1\'ee\'e4\'ed\'e8 \'ec\'e5\'f1\'f2\'e0 \'f7\'f0\'e5\'e7 \'ef\'ee\'ef\'fa\'eb\'e2\'e0\'ed\'e5 \'ed\'e0 \'f4\'ee\'f0\'ec\'e0, \'e2\'ea\'eb\'fe\'f7\'e2\'e0\'f9\'e0 \'f2\'f0\'e8\'f2\'e5 \'e8\'ec\'e5\'ed\'e0, \'e3\'ee\'e4\'e8\'ed\'e8, \'f7\'e5\'f1\'f2\'ee\'f2\'e0 \'ed\'e0 \'f5\'ee\'e4\'e5\'ed\'e5 \'ed\'e0 \'ef\'ee\'f5\'ee\'e4\'e8 \'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e8\'f2\'e5 \'e4\'e0\'ed\'ed\'e8 \'e7\'e0 \'ef\'f0\'e8\'e4\'f0\'f3\'e6\'e8\'f2\'e5\'eb, \'e0\'ea\'ee \'eb\'e8\'f6\'e5\'f2\'ee \'e5 \'ed\'e5\'ef\'fa\'eb\'ed\'ee\'eb\'e5\'f2\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:30:39.4559666+03:00</DateAdded>
+    <DateModified>2023-05-30T18:18:54.5917316+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</UniqueID>
+    <UserID>REQ-25</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Заплащане за мероприятие</Name>
+    <Description>Потребител може да заплати за платено мероприятие чрез външната система Epay.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e7\'e0\'ef\'eb\'e0\'f2\'e8 \'e7\'e0 \'ef\'eb\'e0\'f2\'e5\'ed\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5 \'f7\'f0\'e5\'e7 \'e2\'fa\'ed\'f8\'ed\'e0\'f2\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0 Epay.\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:31:09.5497408+03:00</DateAdded>
+    <DateModified>2023-05-21T09:54:53.7601724+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cb7533bc-d229-49a8-8325-1197e8caf175</UniqueID>
+    <UserID>REQ-26</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Създаване на мероприятие</Name>
+    <Description>В отдел “Мероприятия” потребител, регистриран като собственик на туристическо дружество има възможност да създаде ново мероприятие като предостави описание на дружеството и мероприятието, дата и час на заминаване и съответно пристигане, дестинация, кратко описание на маршрута и нивото му на трудност, препратка към маршрута в системата, начална точка, водач, лимит на участниците и съответната сума, която трябва да заплатят участниците, ако мероприятието е платено.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'cc\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff\f1\rdblquote  \f0\'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb, \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ea\'e0\'f2\'ee \'f1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'e8\'ea \'ed\'e0 \'f2\'f3\'f0\'e8\'f1\'f2\'e8\'f7\'e5\'f1\'ea\'ee \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'f1\'fa\'e7\'e4\'e0\'e4\'e5 \'ed\'ee\'e2\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5 \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ed\'e0 \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee\'f2\'ee \'e8 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5\'f2\'ee, \'e4\'e0\'f2\'e0 \'e8 \'f7\'e0\'f1 \'ed\'e0 \'e7\'e0\'ec\'e8\'ed\'e0\'e2\'e0\'ed\'e5 \'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'ee \'ef\'f0\'e8\'f1\'f2\'e8\'e3\'e0\'ed\'e5, \'e4\'e5\'f1\'f2\'e8\'ed\'e0\'f6\'e8\'ff, \'ea\'f0\'e0\'f2\'ea\'ee \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ed\'e0 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0 \'e8 \'ed\'e8\'e2\'ee\'f2\'ee \'ec\'f3 \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2, \'ef\'f0\'e5\'ef\'f0\'e0\'f2\'ea\'e0 \'ea\'fa\'ec \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0 \'e2 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0, \'ed\'e0\'f7\'e0\'eb\'ed\'e0 \'f2\'ee\'f7\'ea\'e0, \'e2\'ee\'e4\'e0\'f7, \'eb\'e8\'ec\'e8\'f2 \'ed\'e0 \'f3\'f7\'e0\'f1\'f2\'ed\'e8\'f6\'e8\'f2\'e5 \'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e0\'f2\'e0 \'f1\'f3\'ec\'e0, \'ea\'ee\'ff\'f2\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e7\'e0\'ef\'eb\'e0\'f2\'ff\'f2 \'f3\'f7\'e0\'f1\'f2\'ed\'e8\'f6\'e8\'f2\'e5, \'e0\'ea\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5\'f2\'ee \'e5 \'ef\'eb\'e0\'f2\'e5\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>19</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:31:37.2875862+03:00</DateAdded>
+    <DateModified>2023-05-30T18:23:39.7281606+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-11ecc647-54c9-4cb6-ada5-a9ac08013cdb</UniqueID>
+    <UserID>REQ-27</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Заплащане при създаване на мероприятие</Name>
+    <Description>При създаване на мероприятие потребител, регистриран като собственик на туристическо дружество трябва да заплати чрез външната система Epay.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8 \'f1\'fa\'e7\'e4\'e0\'e2\'e0\'ed\'e5 \'ed\'e0 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb, \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ea\'e0\'f2\'ee \'f1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'e8\'ea \'ed\'e0 \'f2\'f3\'f0\'e8\'f1\'f2\'e8\'f7\'e5\'f1\'ea\'ee \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e7\'e0\'ef\'eb\'e0\'f2\'e8 \'f7\'f0\'e5\'e7 \'e2\'fa\'ed\'f8\'ed\'e0\'f2\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0 Epay.\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:32:20.9203793+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:04.314813+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-395d8d4f-0241-431d-914d-9090fca42372</UniqueID>
+    <UserID>REQ-28</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на собствени мероприятия</Name>
+    <Description>Потребители от тип водачи или собственици на туристическо дружество могат да преглеждат всички мероприятия, които се водят от тях.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e2\'ee\'e4\'e0\'f7\'e8 \'e8\'eb\'e8 \'f1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'e8\'f6\'e8 \'ed\'e0 \'f2\'f3\'f0\'e8\'f1\'f2\'e8\'f7\'e5\'f1\'ea\'ee \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0\'f2 \'e2\'f1\'e8\'f7\'ea\'e8 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff, \'ea\'ee\'e8\'f2\'ee \'f1\'e5 \'e2\'ee\'e4\'ff\'f2 \'ee\'f2 \'f2\'ff\'f5.\par
+}
+</RichDescription>
+    <Sequence>21</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:32:56.2065464+03:00</DateAdded>
+    <DateModified>2023-05-21T12:30:08.0625571+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-41e730b6-d9ed-45a0-b38f-f9eed0ad7fe8</UniqueID>
+    <UserID>REQ-29</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на участници в мероприятие</Name>
+    <Description>Потребители от тип водачи и собственици на туристическо дружество могат да преглеждат всички участници на мероприятия, водени или съответно организирани от тях.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e2\'ee\'e4\'e0\'f7\'e8 \'e8 \'f1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'e8\'f6\'e8 \'ed\'e0 \'f2\'f3\'f0\'e8\'f1\'f2\'e8\'f7\'e5\'f1\'ea\'ee \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'ee \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0\'f2 \'e2\'f1\'e8\'f7\'ea\'e8 \'f3\'f7\'e0\'f1\'f2\'ed\'e8\'f6\'e8 \'ed\'e0 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff, \'e2\'ee\'e4\'e5\'ed\'e8 \'e8\'eb\'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'ee \'ee\'f0\'e3\'e0\'ed\'e8\'e7\'e8\'f0\'e0\'ed\'e8 \'ee\'f2 \'f2\'ff\'f5.\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:33:37.061902+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:16.8307104+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</UniqueID>
+    <UserID>REQ-30</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Създаване на нова публикация във форум</Name>
+    <Description>В отдел “Форум”, регистриран потребител може да създаде публикация, като попълни задължително заглавие и съдържание, като има възможност опционално да  качи графични изображения към нея.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d4\'ee\'f0\'f3\'ec\f1\rdblquote , \f0\'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'fa\'e7\'e4\'e0\'e4\'e5 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff, \'ea\'e0\'f2\'ee \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'e7\'e0\'e4\'fa\'eb\'e6\'e8\'f2\'e5\'eb\'ed\'ee \'e7\'e0\'e3\'eb\'e0\'e2\'e8\'e5 \'e8 \'f1\'fa\'e4\'fa\'f0\'e6\'e0\'ed\'e8\'e5, \'ea\'e0\'f2\'ee \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ee\'ef\'f6\'e8\'ee\'ed\'e0\'eb\'ed\'ee \'e4\'e0  \'ea\'e0\'f7\'e8 \'e3\'f0\'e0\'f4\'e8\'f7\'ed\'e8 \'e8\'e7\'ee\'e1\'f0\'e0\'e6\'e5\'ed\'e8\'ff \'ea\'fa\'ec \'ed\'e5\'ff.\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:36:34.0112535+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:23.4051857+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</UniqueID>
+    <UserID>REQ-31</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на публикации</Name>
+    <Description>В отдел “Форум” всеки потребител може да прегледа качените публикации.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d4\'ee\'f0\'f3\'ec\f1\rdblquote  \f0\'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'ea\'e0\'f7\'e5\'ed\'e8\'f2\'e5 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'e8.\par
+}
+</RichDescription>
+    <Sequence>24</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:37:44.3955747+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:27.5158517+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</UniqueID>
+    <UserID>REQ-32</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Филтриране на публикации</Name>
+    <Description>В отдел “Форум” всеки потребител може да филтрира публикации по дата на създаване и популярност, спрямо оценката му на полезност от 1 до 5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d4\'ee\'f0\'f3\'ec\f1\rdblquote  \f0\'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f4\'e8\'eb\'f2\'f0\'e8\'f0\'e0 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'e8 \'ef\'ee \'e4\'e0\'f2\'e0 \'ed\'e0 \'f1\'fa\'e7\'e4\'e0\'e2\'e0\'ed\'e5 \'e8 \'ef\'ee\'ef\'f3\'eb\'ff\'f0\'ed\'ee\'f1\'f2, \'f1\'ef\'f0\'ff\'ec\'ee \'ee\'f6\'e5\'ed\'ea\'e0\'f2\'e0 \'ec\'f3 \'ed\'e0 \'ef\'ee\'eb\'e5\'e7\'ed\'ee\'f1\'f2 \'ee\'f2 1 \'e4\'ee 5.\par
+}
+</RichDescription>
+    <Sequence>25</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:39:19.8758658+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:34.3858916+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</UniqueID>
+    <UserID>REQ-33</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Оценка на полезност на публикация</Name>
+    <Description>В отдел “Форум” регистриран потребител може да оцени полезността на дадена публикация от 1 до 5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d4\'ee\'f0\'f3\'ec\f1\rdblquote  \f0\'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f6\'e5\'ed\'e8 \'ef\'ee\'eb\'e5\'e7\'ed\'ee\'f1\'f2\'f2\'e0 \'ed\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff \'ee\'f2 1 \'e4\'ee 5.\par
+}
+</RichDescription>
+    <Sequence>26</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:39:46.5138285+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:39.9573611+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</UniqueID>
+    <UserID>REQ-34</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Коментиране на публикация</Name>
+    <Description>В отдел “Форум” регистриран потребител може да коментира публикация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d4\'ee\'f0\'f3\'ec\f1\rdblquote  \f0\'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e8\'f0\'e0 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>27</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:40:17.1243848+03:00</DateAdded>
+    <DateModified>2023-05-21T09:55:44.3844777+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</UniqueID>
+    <UserID>REQ-35</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на категории съвети</Name>
+    <Description>В отдел “Съвети” всеки потребител може да преглежда различни категории съвети.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d1\'fa\'e2\'e5\'f2\'e8\f1\rdblquote  \f0\'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8 \'f1\'fa\'e2\'e5\'f2\'e8.\par
+}
+</RichDescription>
+    <Sequence>28</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:40:45.1268539+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:00.9533668+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</UniqueID>
+    <UserID>REQ-36</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на съвети от дадена категория</Name>
+    <Description>В отдел “Съвети” всеки потребител може да избере категория и да прегледа списък от съвети за нея.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb \f1\ldblquote\f0\'d1\'fa\'e2\'e5\'f2\'e8\f1\rdblquote  \f0\'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'e1\'e5\'f0\'e5 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e8 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'f1\'ef\'e8\'f1\'fa\'ea \'ee\'f2 \'f1\'fa\'e2\'e5\'f2\'e8 \'e7\'e0 \'ed\'e5\'ff.\par
+}
+</RichDescription>
+    <Sequence>29</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:41:15.7422436+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:03.5342639+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0ee6d5d5-941f-4d04-975c-9cccab63c112</UniqueID>
+    <UserID>REQ-37</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Добавяне на нов съвет</Name>
+    <Description>Потребители от тип администратор и ПСС могат да добавят нов съвет към избрана категория.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'e8 \'cf\'d1\'d1 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff\'f2 \'ed\'ee\'e2 \'f1\'fa\'e2\'e5\'f2 \'ea\'fa\'ec \'e8\'e7\'e1\'f0\'e0\'ed\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>30</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:41:51.5129107+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:06.8508153+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-73d7a2d8-d231-4d6b-a389-3846607682f3</UniqueID>
+    <UserID>REQ-38</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Добавяне на нова категория съвети</Name>
+    <Description>Потребители от тип администратор и ПСС могат да добавят нова категория.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'e8 \'cf\'d1\'d1 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff\'f2 \'ed\'ee\'e2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>31</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:42:26.9740412+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:10.9013472+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</UniqueID>
+    <UserID>REQ-39</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Решаване на куиз за категория съвети</Name>
+    <Description>Регистриран потребител може да реши куиз, състоящ се от въпроси, свързани с определена категория съвети.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'f8\'e8 \'ea\'f3\'e8\'e7, \'f1\'fa\'f1\'f2\'ee\'ff\'f9 \'f1\'e5 \'ee\'f2 \'e2\'fa\'ef\'f0\'ee\'f1\'e8, \'f1\'e2\'fa\'f0\'e7\'e0\'ed\'e8 \'f1 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'f1\'fa\'e2\'e5\'f2\'e8.\par
+}
+</RichDescription>
+    <Sequence>32</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:43:13.592721+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:14.6347015+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</UniqueID>
+    <UserID>REQ-40</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Решаване на куиз за всички съвети</Name>
+    <Description>Регистриран потребител може да реши куиз, състоящ се от въпроси, свързани с всички категории съвети.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'f8\'e8 \'ea\'f3\'e8\'e7, \'f1\'fa\'f1\'f2\'ee\'ff\'f9 \'f1\'e5 \'ee\'f2 \'e2\'fa\'ef\'f0\'ee\'f1\'e8, \'f1\'e2\'fa\'f0\'e7\'e0\'ed\'e8 \'f1 \'e2\'f1\'e8\'f7\'ea\'e8 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8 \'f1\'fa\'e2\'e5\'f2\'e8.\par
+}
+</RichDescription>
+    <Sequence>33</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:43:54.3215156+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:18.6420954+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-38a33f55-183b-40c1-8978-262278d4f99d</UniqueID>
+    <UserID>REQ-41</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Добавяне на куиз</Name>
+    <Description>Потребител от тип администратор може да добавя куиз за определена категория съвети.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ee\'f2 \'f2\'e8\'ef \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'ea\'f3\'e8\'e7 \'e7\'e0 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'f1\'fa\'e2\'e5\'f2\'e8.\par
+}
+</RichDescription>
+    <Sequence>34</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:44:27.0026693+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:23.5208656+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-daf8bf6a-23df-4c5d-96ae-d030fe53a39b</UniqueID>
+    <UserID>REQ-42</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Добавяне на нов маршрут</Name>
+    <Description>Потребители от тип планинари, поставящи и обновяващи маркировки, могат да подадат заявка към системата за добавяне на нов маршрут, като предоставят информация за маршрута - описание на основните части на пътеката,  поддържаност на пътеката, ниво на трудност, тип релеф, нужна екипировка, препратка към външна карта с пътеката, маркировка, средно време за преход.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8, \'ef\'ee\'f1\'f2\'e0\'e2\'ff\'f9\'e8 \'e8 \'ee\'e1\'ed\'ee\'e2\'ff\'e2\'e0\'f9\'e8 \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e8, \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ef\'ee\'e4\'e0\'e4\'e0\'f2 \'e7\'e0\'ff\'e2\'ea\'e0 \'ea\'fa\'ec \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0 \'e4\'ee\'e1\'e0\'e2\'ff\'ed\'e5 \'ed\'e0 \'ed\'ee\'e2 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff\'f2 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0 - \cf1\'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ed\'e0 \'ee\'f1\'ed\'ee\'e2\'ed\'e8\'f2\'e5 \'f7\'e0\'f1\'f2\'e8 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0,  \'ef\'ee\'e4\'e4\'fa\'f0\'e6\'e0\'ed\'ee\'f1\'f2 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ed\'e8\'e2\'ee \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2, \'f2\'e8\'ef \'f0\'e5\'eb\'e5\'f4, \'ed\'f3\'e6\'ed\'e0 \'e5\'ea\'e8\'ef\'e8\'f0\'ee\'e2\'ea\'e0, \'ef\'f0\'e5\'ef\'f0\'e0\'f2\'ea\'e0 \'ea\'fa\'ec \'e2\'fa\'ed\'f8\'ed\'e0 \'ea\'e0\'f0\'f2\'e0 \'f1 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e0, \'f1\'f0\'e5\'e4\'ed\'ee \'e2\'f0\'e5\'ec\'e5 \'e7\'e0 \'ef\'f0\'e5\'f5\'ee\'e4\cf0 .\par
+}
+</RichDescription>
+    <Sequence>35</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:45:01.0938178+03:00</DateAdded>
+    <DateModified>2023-06-03T16:45:53.0764738+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5968c679-768e-40e6-b8af-8a2ce95f2c04</UniqueID>
+    <UserID>REQ-43</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Одобряване на нов маршрут</Name>
+    <Description>Потребители от тип администратори могат да одобряват заявки за добавяне на нов маршрут, направени от планинари, поставящи и обновяващи маркировки.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'e8 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ee\'e4\'ee\'e1\'f0\'ff\'e2\'e0\'f2 \'e7\'e0\'ff\'e2\'ea\'e8 \'e7\'e0 \'e4\'ee\'e1\'e0\'e2\'ff\'ed\'e5 \'ed\'e0 \'ed\'ee\'e2 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ed\'e0\'ef\'f0\'e0\'e2\'e5\'ed\'e8 \'ee\'f2 \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8, \'ef\'ee\'f1\'f2\'e0\'e2\'ff\'f9\'e8 \'e8 \'ee\'e1\'ed\'ee\'e2\'ff\'e2\'e0\'f9\'e8 \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e8.\par
+}
+</RichDescription>
+    <Sequence>36</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:45:37.9509555+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:36.2740004+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f2befb5e-759c-4877-8b01-79a448c2e6d2</UniqueID>
+    <UserID>REQ-44</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Редактиране на маршрут</Name>
+    <Description>Потребители от тип планинари, поставящи и обновяващи маркировки, могат да подадат заявка към системата за редактиране на съществуващ маршрут, като предоставят обновената информация за маршрута -  описание на основните части на пътеката, поддържаност на пътеката, ниво на трудност, тип релеф, нужна екипировка, препратка към външна карта с пътеката, маркировка, средно време за преход.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8, \'ef\'ee\'f1\'f2\'e0\'e2\'ff\'f9\'e8 \'e8 \'ee\'e1\'ed\'ee\'e2\'ff\'e2\'e0\'f9\'e8 \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e8, \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ef\'ee\'e4\'e0\'e4\'e0\'f2 \'e7\'e0\'ff\'e2\'ea\'e0 \'ea\'fa\'ec \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\'ed\'e5 \'ed\'e0 \'f1\'fa\'f9\'e5\'f1\'f2\'e2\'f3\'e2\'e0\'f9 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff\'f2 \'ee\'e1\'ed\'ee\'e2\'e5\'ed\'e0\'f2\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0 -  \cf1\'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ed\'e0 \'ee\'f1\'ed\'ee\'e2\'ed\'e8\'f2\'e5 \'f7\'e0\'f1\'f2\'e8 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ef\'ee\'e4\'e4\'fa\'f0\'e6\'e0\'ed\'ee\'f1\'f2 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ed\'e8\'e2\'ee \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2, \'f2\'e8\'ef \'f0\'e5\'eb\'e5\'f4, \'ed\'f3\'e6\'ed\'e0 \'e5\'ea\'e8\'ef\'e8\'f0\'ee\'e2\'ea\'e0, \'ef\'f0\'e5\'ef\'f0\'e0\'f2\'ea\'e0 \'ea\'fa\'ec \'e2\'fa\'ed\'f8\'ed\'e0 \'ea\'e0\'f0\'f2\'e0 \'f1 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e0, \'f1\'f0\'e5\'e4\'ed\'ee \'e2\'f0\'e5\'ec\'e5 \'e7\'e0 \'ef\'f0\'e5\'f5\'ee\'e4\cf0 .\par
+}
+</RichDescription>
+    <Sequence>37</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:46:12.0793234+03:00</DateAdded>
+    <DateModified>2023-06-03T16:45:41.4961603+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-1fb1dd19-a1cb-4927-aa61-4711ce1bf957</UniqueID>
+    <UserID>REQ-45</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Одобряване на редакция на маршрут</Name>
+    <Description>Потребители от тип администратори могат да одобряват заявки за за редактиране на съществуващ маршрут, направени от планинари, поставящи и обновяващи маркировки.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'e8 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ee\'e4\'ee\'e1\'f0\'ff\'e2\'e0\'f2 \'e7\'e0\'ff\'e2\'ea\'e8 \'e7\'e0 \'e7\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\'ed\'e5 \'ed\'e0 \'f1\'fa\'f9\'e5\'f1\'f2\'e2\'f3\'e2\'e0\'f9 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ed\'e0\'ef\'f0\'e0\'e2\'e5\'ed\'e8 \'ee\'f2 \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8, \'ef\'ee\'f1\'f2\'e0\'e2\'ff\'f9\'e8 \'e8 \'ee\'e1\'ed\'ee\'e2\'ff\'e2\'e0\'f9\'e8 \'ec\'e0\'f0\'ea\'e8\'f0\'ee\'e2\'ea\'e8.\par
+}
+</RichDescription>
+    <Sequence>38</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T13:47:08.8142807+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:53.7572496+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0a59b05b-6091-40ca-b9af-eaa06e5851ed</UniqueID>
+    <UserID>REQ-46</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Добавяне на предупреждение към пътека/маршрут</Name>
+    <Description>Потребители от тип администратори могат да добавят предупредително съобщение за определена пътека/маршрут при получен сигнал.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'ee\'f2 \'f2\'e8\'ef \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'e8 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff\'f2 \'ef\'f0\'e5\'e4\'f3\'ef\'f0\'e5\'e4\'e8\'f2\'e5\'eb\'ed\'ee \'f1\'fa\'ee\'e1\'f9\'e5\'ed\'e8\'e5 \'e7\'e0 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0/\'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'ef\'f0\'e8 \'ef\'ee\'eb\'f3\'f7\'e5\'ed \'f1\'e8\'e3\'ed\'e0\'eb.\par
+}
+</RichDescription>
+    <Sequence>39</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:47:53.0960254+03:00</DateAdded>
+    <DateModified>2023-05-21T09:56:57.9492935+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</UniqueID>
+    <UserID>REQ-47</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Докладване на публикация</Name>
+    <Description>Регистриран потребител може да докладва публикация във форум, като представи причина.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'ea\'eb\'e0\'e4\'e2\'e0 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff \'e2\'fa\'e2 \'f4\'ee\'f0\'f3\'ec, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'f1\'f2\'e0\'e2\'e8 \'ef\'f0\'e8\'f7\'e8\'ed\'e0.\par
+}
+</RichDescription>
+    <Sequence>40</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:49:04.596932+03:00</DateAdded>
+    <DateModified>2023-05-21T12:30:37.3530534+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</UniqueID>
+    <UserID>REQ-48</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Докладване на рецензия</Name>
+    <Description>Регистриран потребител може да докладва рецензия на дадена пътека като представи причина.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'ea\'eb\'e0\'e4\'e2\'e0 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'ff \'ed\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0 \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'f1\'f2\'e0\'e2\'e8 \'ef\'f0\'e8\'f7\'e8\'ed\'e0.\par
+}
+</RichDescription>
+    <Sequence>41</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:50:29.737043+03:00</DateAdded>
+    <DateModified>2023-05-21T09:57:15.1713055+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</UniqueID>
+    <UserID>REQ-49</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на профил на потребител</Name>
+    <Description>Регистриран потребител може да прегледа профили на други потребители в системата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'ef\'f0\'ee\'f4\'e8\'eb\'e8 \'ed\'e0 \'e4\'f0\'f3\'e3\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8 \'e2 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>42</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <DateAdded>2023-05-20T13:52:25.2447582+03:00</DateAdded>
+    <DateModified>2023-05-21T09:57:25.0888935+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e81f6afb-fe6e-4de8-8f82-343fe4fbf2ca</UniqueID>
+    <UserID>REQ-50</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Обратна връзка за мероприятие</Name>
+    <Description>Системата дава възможност на всеки потребител, присъствал на дадено мероприятиеда оцени своя водач от 1 до 5, да постави писмен коментар и да добави рецензия към изминатия маршрут.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e4\'e0\'e2\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ed\'e0 \'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb, \'ef\'f0\'e8\'f1\'fa\'f1\'f2\'e2\'e0\'eb \'ed\'e0 \'e4\'e0\'e4\'e5\'ed\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5\'e4\'e0 \'ee\'f6\'e5\'ed\'e8 \'f1\'e2\'ee\'ff \'e2\'ee\'e4\'e0\'f7 \'ee\'f2 1 \'e4\'ee 5, \'e4\'e0 \'ef\'ee\'f1\'f2\'e0\'e2\'e8 \'ef\'e8\'f1\'ec\'e5\'ed \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e8 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'e8 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'ff \'ea\'fa\'ec \'e8\'e7\'ec\'e8\'ed\'e0\'f2\'e8\'ff \'ec\'e0\'f0\'f8\'f0\'f3\'f2.\par
+}
+</RichDescription>
+    <Sequence>43</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:52:56.491996+03:00</DateAdded>
+    <DateModified>2023-06-03T16:47:02.3940788+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-01894195-d4da-4359-96a4-bbd2f76994ab</UniqueID>
+    <UserID>REQ-51</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Клиентското приложение трябва да работи върху операционната система Android 9+, IOS 10+.</Name>
+    <Sequence>44</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:54:09.2205809+03:00</DateAdded>
+    <DateModified>2023-05-21T09:51:23.0377793+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-350be996-9660-4287-9261-4932c451d0ca</UniqueID>
+    <UserID>REQ-52</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Системата да поддържа 100 000 потребители едновременно.</Name>
+    <Description />
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+</RichDescription>
+    <Sequence>45</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:54:58.6380102+03:00</DateAdded>
+    <DateModified>2023-05-21T12:30:54.4706327+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-bdb71eae-411e-4556-b610-4d0d4cb81101</UniqueID>
+    <UserID>REQ-53</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Потребителите да се научат как се ползва системата за максимум десет минути.</Name>
+    <Sequence>46</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:55:37.20961+03:00</DateAdded>
+    <DateModified>2023-05-21T09:51:10.9161259+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b8edf5d7-d78d-400d-815d-d74da71bad18</UniqueID>
+    <UserID>REQ-54</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>След сигнал за опасност и предоставена снимка за доказателство, че подаденият сигнал не е фалшив, администраторите да качат опасността до десет минути.</Name>
+    <Sequence>47</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:55:52.2162399+03:00</DateAdded>
+    <DateModified>2023-05-21T09:51:05.7552627+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7dd1a56d-a933-466a-b32a-b53e0d66ec2c</UniqueID>
+    <UserID>REQ-55</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Системата трябва да бъде налична 97% от годината.</Name>
+    <Sequence>48</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T13:56:11.3652086+03:00</DateAdded>
+    <DateModified>2023-05-21T09:51:01.1210712+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cbf60174-bfa2-43aa-97f6-060be1bd80c5</UniqueID>
+    <UserID>REQ-56</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Системата да бъде разработена като мобилно приложение.</Name>
+    <Sequence>49</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:56:25.4505147+03:00</DateAdded>
+    <DateModified>2023-05-21T09:50:54.4467725+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</UniqueID>
+    <UserID>REQ-57</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>GDPR</Name>
+    <Description>За да е законна регистрацията, трябва да е коректна спрямо закона за GDPR.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c7\'e0 \'e4\'e0 \'e5 \'e7\'e0\'ea\'ee\'ed\'ed\'e0 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e0\'f6\'e8\'ff\'f2\'e0, \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e5 \'ea\'ee\'f0\'e5\'ea\'f2\'ed\'e0 \'f1\'ef\'f0\'ff\'ec\'ee \'e7\'e0\'ea\'ee\'ed\'e0 \'e7\'e0 GDPR.\par
+}
+</RichDescription>
+    <Sequence>50</Sequence>
+    <Type>Domain</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T13:57:26.2780737+03:00</DateAdded>
+    <DateModified>2023-05-21T09:43:18.6380037+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d8b1880c-7ad3-4ab4-aadf-297d9fc9ac52</UniqueID>
+    <UserID>REQ-58</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Законов лимит спрямо водачи</Name>
+    <Description>Съобразяване със законов лимит на планинари спрямо водачи на походи.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'fa\'ee\'e1\'f0\'e0\'e7\'ff\'e2\'e0\'ed\'e5 \'f1\'fa\'f1 \'e7\'e0\'ea\'ee\'ed\'ee\'e2 \'eb\'e8\'ec\'e8\'f2 \'ed\'e0 \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8 \'f1\'ef\'f0\'ff\'ec\'ee \'e2\'ee\'e4\'e0\'f7\'e8 \'ed\'e0 \'ef\'ee\'f5\'ee\'e4\'e8.\par
+}
+</RichDescription>
+    <Sequence>51</Sequence>
+    <Type>Domain</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T14:00:22.7125141+03:00</DateAdded>
+    <DateModified>2023-05-21T11:50:17.5879413+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-88d6b16e-bd23-405d-8d18-225a113d9dc5</UniqueID>
+    <UserID>REQ-59</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Нормативна наредба за водачи</Name>
+    <Description>Проверката на лицензирани водачи и туристически дружества да се извършва спрямо специфичната нормативната наредба.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'ee\'e2\'e5\'f0\'ea\'e0\'f2\'e0 \'ed\'e0 \'eb\'e8\'f6\'e5\'ed\'e7\'e8\'f0\'e0\'ed\'e8 \'e2\'ee\'e4\'e0\'f7\'e8 \'e8 \'f2\'f3\'f0\'e8\'f1\'f2\'e8\'f7\'e5\'f1\'ea\'e8 \'e4\'f0\'f3\'e6\'e5\'f1\'f2\'e2\'e0 \'e4\'e0 \'f1\'e5 \'e8\'e7\'e2\'fa\'f0\'f8\'e2\'e0 \'f1\'ef\'f0\'ff\'ec\'ee \'f1\'ef\'e5\'f6\'e8\'f4\'e8\'f7\'ed\'e0\'f2\'e0 \'ed\'ee\'f0\'ec\'e0\'f2\'e8\'e2\'ed\'e0\'f2\'e0 \'ed\'e0\'f0\'e5\'e4\'e1\'e0.\par
+}
+</RichDescription>
+    <Sequence>52</Sequence>
+    <Type>Domain</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T14:01:35.962895+03:00</DateAdded>
+    <DateModified>2023-05-21T11:51:24.240232+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8ffa1440-42a2-41f6-b8d9-023f145f43eb</UniqueID>
+    <UserID>REQ-60</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Наредби за застраховки</Name>
+    <Description>Съвети за видовете застраховки трябва да са проверени за достоверност със законовите наредби, свързани с тях.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'fa\'e2\'e5\'f2\'e8 \'e7\'e0 \'e2\'e8\'e4\'ee\'e2\'e5\'f2\'e5 \'e7\'e0\'f1\'f2\'f0\'e0\'f5\'ee\'e2\'ea\'e8 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'f1\'e0 \'ef\'f0\'ee\'e2\'e5\'f0\'e5\'ed\'e8 \'e7\'e0 \'e4\'ee\'f1\'f2\'ee\'e2\'e5\'f0\'ed\'ee\'f1\'f2 \'f1\'fa\'f1 \'e7\'e0\'ea\'ee\'ed\'ee\'e2\'e8\'f2\'e5 \'ed\'e0\'f0\'e5\'e4\'e1\'e8, \'f1\'e2\'fa\'f0\'e7\'e0\'ed\'e8 \'f1 \'f2\'ff\'f5.\par
+}
+</RichDescription>
+    <Sequence>53</Sequence>
+    <Type>Domain</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-20T14:02:42.3673304+03:00</DateAdded>
+    <DateModified>2023-05-21T09:43:39.0908153+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a96f4b94-bf4b-471a-987c-8bbf2e0b4eaa</UniqueID>
+    <UserID>REQ-61</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Офлайн режим</Name>
+    <Description>Потребителите могат да използват приложението дори в офлайн режим, докато са на преход.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8\'f2\'e5 \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0\'f2 \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e4\'ee\'f0\'e8 \'e2 \'ee\'f4\'eb\'e0\'e9\'ed \'f0\'e5\'e6\'e8\'ec, \'e4\'ee\'ea\'e0\'f2\'ee \'f1\'e0 \'ed\'e0 \'ef\'f0\'e5\'f5\'ee\'e4.\par
+}
+</RichDescription>
+    <Sequence>54</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T14:03:59.6057846+03:00</DateAdded>
+    <DateModified>2023-05-21T09:42:08.6541924+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-76b5831f-53b4-4e46-8953-61974a53e81d</UniqueID>
+    <UserID>REQ-62</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Улесняване на планирането на походи</Name>
+    <Description>Събрана е ключовата информация, от която се нуждае всеки планинар, а именно достъп до възможните маршрути и различните отзиви на други планинари за тях, възможните опасности и времевите условия и съответни препоръки, с които може да вземе най-доброто и най-безопасното решение.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'fa\'e1\'f0\'e0\'ed\'e0 \'e5 \'ea\'eb\'fe\'f7\'ee\'e2\'e0\'f2\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff, \'ee\'f2 \'ea\'ee\'ff\'f2\'ee \'f1\'e5 \'ed\'f3\'e6\'e4\'e0\'e5 \'e2\'f1\'e5\'ea\'e8 \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0, \'e0 \'e8\'ec\'e5\'ed\'ed\'ee \'e4\'ee\'f1\'f2\'fa\'ef \'e4\'ee \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'e8\'f2\'e5 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8 \'e8 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8\'f2\'e5 \'ee\'f2\'e7\'e8\'e2\'e8 \'ed\'e0 \'e4\'f0\'f3\'e3\'e8 \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8 \'e7\'e0 \'f2\'ff\'f5, \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'e8\'f2\'e5 \'ee\'ef\'e0\'f1\'ed\'ee\'f1\'f2\'e8 \'e8 \'e2\'f0\'e5\'ec\'e5\'e2\'e8\'f2\'e5 \'f3\'f1\'eb\'ee\'e2\'e8\'ff \'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e8 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'ea\'e8, \'f1 \'ea\'ee\'e8\'f2\'ee \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'e7\'e5\'ec\'e5 \'ed\'e0\'e9-\'e4\'ee\'e1\'f0\'ee\'f2\'ee \'e8 \'ed\'e0\'e9-\'e1\'e5\'e7\'ee\'ef\'e0\'f1\'ed\'ee\'f2\'ee \'f0\'e5\'f8\'e5\'ed\'e8\'e5.\par
+}
+</RichDescription>
+    <Sequence>55</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T14:04:55.8597326+03:00</DateAdded>
+    <DateModified>2023-05-21T09:42:14.8432319+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-448a6972-9f6a-432d-ad75-779d7812d02a</UniqueID>
+    <UserID>REQ-63</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Комуникация между различните планинарски общности</Name>
+    <Description>Системата организира комуникацията ефективно, като влиза в ролята на платформа, в която могат да се организират мероприятия и да се споделят важни промени и новини. Тази функционалност е полезна не само за начинаещите, но и опреснява информацията на напредналите планинари.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ee\'f0\'e3\'e0\'ed\'e8\'e7\'e8\'f0\'e0 \'ea\'ee\'ec\'f3\'ed\'e8\'ea\'e0\'f6\'e8\'ff\'f2\'e0 \'e5\'f4\'e5\'ea\'f2\'e8\'e2\'ed\'ee, \'ea\'e0\'f2\'ee \'e2\'eb\'e8\'e7\'e0 \'e2 \'f0\'ee\'eb\'ff\'f2\'e0 \'ed\'e0 \'ef\'eb\'e0\'f2\'f4\'ee\'f0\'ec\'e0, \'e2 \'ea\'ee\'ff\'f2\'ee \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'f1\'e5 \'ee\'f0\'e3\'e0\'ed\'e8\'e7\'e8\'f0\'e0\'f2 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff \'e8 \'e4\'e0 \'f1\'e5 \'f1\'ef\'ee\'e4\'e5\'eb\'ff\'f2 \'e2\'e0\'e6\'ed\'e8 \'ef\'f0\'ee\'ec\'e5\'ed\'e8 \'e8 \'ed\'ee\'e2\'e8\'ed\'e8. \'d2\'e0\'e7\'e8 \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'ed\'ee\'f1\'f2 \'e5 \'ef\'ee\'eb\'e5\'e7\'ed\'e0 \'ed\'e5 \'f1\'e0\'ec\'ee \'e7\'e0 \'ed\'e0\'f7\'e8\'ed\'e0\'e5\'f9\'e8\'f2\'e5, \'ed\'ee \'e8 \'ee\'ef\'f0\'e5\'f1\'ed\'ff\'e2\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff\'f2\'e0 \'ed\'e0 \'ed\'e0\'ef\'f0\'e5\'e4\'ed\'e0\'eb\'e8\'f2\'e5 \'ef\'eb\'e0\'ed\'e8\'ed\'e0\'f0\'e8.\par
+}
+</RichDescription>
+    <Sequence>56</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-20T14:05:59.0176932+03:00</DateAdded>
+    <DateModified>2023-05-21T09:42:28.4873103+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e93f3953-2b21-4172-9c2e-478286270339</UniqueID>
+    <UserID>REQ-64</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Осигуряване на важна информационна база</Name>
+    <Description>Не само от гледна точка на пътеките и метеорологичните условия, но и от гледна точка на безопасността и начините за реагиране в животозастрашаващи ситуации и други. Осигурява персонализирани предупреждения за избрания маршрут или местност.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cd\'e5 \'f1\'e0\'ec\'ee \'ee\'f2 \'e3\'eb\'e5\'e4\'ed\'e0 \'f2\'ee\'f7\'ea\'e0 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e8\'f2\'e5 \'e8 \'ec\'e5\'f2\'e5\'ee\'f0\'ee\'eb\'ee\'e3\'e8\'f7\'ed\'e8\'f2\'e5 \'f3\'f1\'eb\'ee\'e2\'e8\'ff, \'ed\'ee \'e8 \'ee\'f2 \'e3\'eb\'e5\'e4\'ed\'e0 \'f2\'ee\'f7\'ea\'e0 \'ed\'e0 \'e1\'e5\'e7\'ee\'ef\'e0\'f1\'ed\'ee\'f1\'f2\'f2\'e0 \'e8 \'ed\'e0\'f7\'e8\'ed\'e8\'f2\'e5 \'e7\'e0 \'f0\'e5\'e0\'e3\'e8\'f0\'e0\'ed\'e5 \'e2 \'e6\'e8\'e2\'ee\'f2\'ee\'e7\'e0\'f1\'f2\'f0\'e0\'f8\'e0\'e2\'e0\'f9\'e8 \'f1\'e8\'f2\'f3\'e0\'f6\'e8\'e8 \'e8 \'e4\'f0\'f3\'e3\'e8. \'ce\'f1\'e8\'e3\'f3\'f0\'ff\'e2\'e0 \'ef\'e5\'f0\'f1\'ee\'ed\'e0\'eb\'e8\'e7\'e8\'f0\'e0\'ed\'e8 \'ef\'f0\'e5\'e4\'f3\'ef\'f0\'e5\'e6\'e4\'e5\'ed\'e8\'ff \'e7\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e8\'ff \'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'e8\'eb\'e8 \'ec\'e5\'f1\'f2\'ed\'ee\'f1\'f2.\par
+}
+</RichDescription>
+    <Sequence>57</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-20T14:07:01.0669161+03:00</DateAdded>
+    <DateModified>2023-05-21T09:42:37.4246524+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</UniqueID>
+    <UserID>REQ-65</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Вход на регистриран потребител</Name>
+    <Description>Всеки регистриран потребител може да влезе в системата след като попълни правилно имейл и парола, които са ползвани за регистрация.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'eb\'e5\'e7\'e5 \'e2 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f1\'eb\'e5\'e4 \'ea\'e0\'f2\'ee \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'ef\'f0\'e0\'e2\'e8\'eb\'ed\'ee \'e8\'ec\'e5\'e9\'eb \'e8 \'ef\'e0\'f0\'ee\'eb\'e0, \'ea\'ee\'e8\'f2\'ee \'f1\'e0 \'ef\'ee\'eb\'e7\'e2\'e0\'ed\'e8 \'e7\'e0 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e0\'f6\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>58</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-21T09:08:47.5566132+03:00</DateAdded>
+    <DateModified>2023-06-01T00:56:11.1627551+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</UniqueID>
+    <UserID>REQ-66</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Вход на нерегистриран потребител</Name>
+    <Description>Всеки потребител, който не желае да си прави регистрация, може да разгледа главните функционалности на системата, но няма да има достъп до нейната интерактивност.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb, \'ea\'ee\'e9\'f2\'ee \'ed\'e5 \'e6\'e5\'eb\'e0\'e5 \'e4\'e0 \'f1\'e8 \'ef\'f0\'e0\'e2\'e8 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e0\'f6\'e8\'ff, \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e0\'e7\'e3\'eb\'e5\'e4\'e0 \'e3\'eb\'e0\'e2\'ed\'e8\'f2\'e5 \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'ed\'ee\'f1\'f2\'e8 \'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0, \'ed\'ee \'ed\'ff\'ec\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e4\'ee\'f1\'f2\'fa\'ef \'e4\'ee \'ed\'e5\'e9\'ed\'e0\'f2\'e0 \'e8\'ed\'f2\'e5\'f0\'e0\'ea\'f2\'e8\'e2\'ed\'ee\'f1\'f2.\par
+}
+</RichDescription>
+    <Sequence>59</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-21T09:10:27.7048622+03:00</DateAdded>
+    <DateModified>2023-05-30T18:32:25.7864989+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0960cb1a-3f64-4bd5-9a05-c5ac092630ea</UniqueID>
+    <UserID>REQ-67</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Изход от профил</Name>
+    <Description>Всеки потребител, който си е влязъл в профила, може да излезе от него по всяко време.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb, \'ea\'ee\'e9\'f2\'ee \'f1\'e8 \'e5 \'e2\'eb\'ff\'e7\'fa\'eb \'e2 \'ef\'f0\'ee\'f4\'e8\'eb\'e0, \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'eb\'e5\'e7\'e5 \'ee\'f2 \'ed\'e5\'e3\'ee \'ef\'ee \'e2\'f1\'ff\'ea\'ee \'e2\'f0\'e5\'ec\'e5.\par
+}
+</RichDescription>
+    <Sequence>60</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-21T09:12:15.8220017+03:00</DateAdded>
+    <DateModified>2023-05-21T11:18:59.8973744+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-75ea074b-823c-4128-a1c1-48cd57ef712e</UniqueID>
+    <UserID>REQ-68</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Забравена парола</Name>
+    <Description>При забавена парола се показва поле за попълване на имейл - ако той е в базата данни за регистрирани потребители, то се изпраща имейл с нова парола, която потребителят после може да си смени, а ако не е в тази база данни - показва се предупреждение, че няма регистриран потребител с този имейл и да се опита отново с валиден такъв.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8 \'e7\'e0\'e1\'e0\'e2\'e5\'ed\'e0 \'ef\'e0\'f0\'ee\'eb\'e0 \'f1\'e5 \'ef\'ee\'ea\'e0\'e7\'e2\'e0 \'ef\'ee\'eb\'e5 \'e7\'e0 \'ef\'ee\'ef\'fa\'eb\'e2\'e0\'ed\'e5 \'ed\'e0 \'e8\'ec\'e5\'e9\'eb - \'e0\'ea\'ee \'f2\'ee\'e9 \'e5 \'e2 \'e1\'e0\'e7\'e0\'f2\'e0 \'e4\'e0\'ed\'ed\'e8 \'e7\'e0 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8, \'f2\'ee \'f1\'e5 \'e8\'e7\'ef\'f0\'e0\'f9\'e0 \'e8\'ec\'e5\'e9\'eb \'f1 \'ed\'ee\'e2\'e0 \'ef\'e0\'f0\'ee\'eb\'e0, \'ea\'ee\'ff\'f2\'ee \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'ff\'f2 \'ef\'ee\'f1\'eb\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'f1\'e8 \'f1\'ec\'e5\'ed\'e8, \'e0 \'e0\'ea\'ee \'ed\'e5 \'e5 \'e2 \'f2\'e0\'e7\'e8 \'e1\'e0\'e7\'e0 \'e4\'e0\'ed\'ed\'e8 - \'ef\'ee\'ea\'e0\'e7\'e2\'e0 \'f1\'e5 \'ef\'f0\'e5\'e4\'f3\'ef\'f0\'e5\'e6\'e4\'e5\'ed\'e8\'e5, \'f7\'e5 \'ed\'ff\'ec\'e0 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'f1 \'f2\'ee\'e7\'e8 \'e8\'ec\'e5\'e9\'eb \'e8 \'e4\'e0 \'f1\'e5 \'ee\'ef\'e8\'f2\'e0 \'ee\'f2\'ed\'ee\'e2\'ee \'f1 \'e2\'e0\'eb\'e8\'e4\'e5\'ed \'f2\'e0\'ea\'fa\'e2.\par
+}
+</RichDescription>
+    <Sequence>61</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-21T09:27:55.0508728+03:00</DateAdded>
+    <DateModified>2023-05-21T11:19:20.2325499+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</UniqueID>
+    <UserID>REQ-69</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Вход на администратор</Name>
+    <Description>Администраторът влиза в системата с потребителско име и парола, които задължително трябва да присъстват в базата данни. Няма как даден потребител да се регистрира като администратор, добавянето на нови такива става ръчно.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'e2\'eb\'e8\'e7\'e0 \'e2 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f1 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'f1\'ea\'ee \'e8\'ec\'e5 \'e8 \'ef\'e0\'f0\'ee\'eb\'e0, \'ea\'ee\'e8\'f2\'ee \'e7\'e0\'e4\'fa\'eb\'e6\'e8\'f2\'e5\'eb\'ed\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e8\'f1\'fa\'f1\'f2\'e2\'e0\'f2 \'e2 \'e1\'e0\'e7\'e0\'f2\'e0 \'e4\'e0\'ed\'ed\'e8. \'cd\'ff\'ec\'e0 \'ea\'e0\'ea \'e4\'e0\'e4\'e5\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'e4\'e0 \'f1\'e5 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0 \'ea\'e0\'f2\'ee \cf1\ul\'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\cf2\ulnone ,\cf0  \'e4\'ee\'e1\'e0\'e2\'ff\'ed\'e5\'f2\'ee \'ed\'e0 \'ed\'ee\'e2\'e8 \'f2\'e0\'ea\'e8\'e2\'e0 \'f1\'f2\'e0\'e2\'e0 \'f0\'fa\'f7\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>62</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-21T11:42:14.3663555+03:00</DateAdded>
+    <DateModified>2023-06-03T16:48:49.8166205+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d476140c-d8e7-4ea1-9cfd-4f46b2671198</UniqueID>
+    <UserID>REQ-8.8</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Преглед на оценка на пътека</Name>
+    <Description>Всеки потребител може да прегледа оценка за пътеката, разделена в категории - "Ниво на трудност", "Поддържаност" и "Достъпност", оценени от 1 до 5, както и осреднената им стойност.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0, \'f0\'e0\'e7\'e4\'e5\'eb\'e5\'ed\'e0 \'e2 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8 - "\'cd\'e8\'e2\'ee \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2", "\'cf\'ee\'e4\'e4\'fa\'f0\'e6\'e0\'ed\'ee\'f1\'f2" \'e8 "\'c4\'ee\'f1\'f2\'fa\'ef\'ed\'ee\'f1\'f2", \'ee\'f6\'e5\'ed\'e5\'ed\'e8 \'ee\'f2 1 \'e4\'ee 5, \'ea\'e0\'ea\'f2\'ee \'e8 \'ee\'f1\'f0\'e5\'e4\'ed\'e5\'ed\'e0\'f2\'e0 \'e8\'ec \'f1\'f2\'ee\'e9\'ed\'ee\'f1\'f2.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-30T18:02:56.2956114+03:00</DateAdded>
+    <DateModified>2023-05-30T18:05:09.386359+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7f899e89-3c7c-4c91-943d-7318af3814b1</UniqueID>
+    <UserID>REQ-8.9</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Преглед на карта с маршрут</Name>
+    <Description>Всеки потребител може да види карта с избрания маршрут, която е интегрирана чрез външната система Google Maps.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'e8\'e4\'e8 \'ea\'e0\'f0\'f2\'e0 \'f1 \'e8\'e7\'e1\'f0\'e0\'ed\'e8\'ff \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ea\'ee\'ff\'f2\'ee \'e5 \'e8\'ed\'f2\'e5\'e3\'f0\'e8\'f0\'e0\'ed\'e0 \'f7\'f0\'e5\'e7 \'e2\'fa\'ed\'f8\'ed\'e0\'f2\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0 \lang1033\f1 Google Maps\lang1026\f0 .\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type>Functional</Type>
+    <Priority>5</Priority>
+    <DateAdded>2023-05-30T18:07:02.6138308+03:00</DateAdded>
+    <DateModified>2023-05-30T18:11:27.2784688+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d909ffdd-8b77-41ca-b060-6982eb96e81d</UniqueID>
+    <UserID>REQ-8.10</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Преглед на ниво на трудност</Name>
+    <Description>Всеки потребител може да види нивото на трудност, спрямо релефа на пътеката (дължина, терен, денивелация), като съответно опциите са "Подходящо за начинаещи", "Подходящо за хора със среден опит" и "Подходящо за напреднали".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'e8\'e4\'e8 \'ed\'e8\'e2\'ee\'f2\'ee \'ed\'e0 \'f2\'f0\'f3\'e4\'ed\'ee\'f1\'f2, \'f1\'ef\'f0\'ff\'ec\'ee \'f0\'e5\'eb\'e5\'f4\'e0 \'ed\'e0 \'ef\'fa\'f2\'e5\'ea\'e0\'f2\'e0 (\'e4\'fa\'eb\'e6\'e8\'ed\'e0, \'f2\'e5\'f0\'e5\'ed, \'e4\'e5\'ed\'e8\'e2\'e5\'eb\'e0\'f6\'e8\'ff), \'ea\'e0\'f2\'ee \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'ee \'ee\'ef\'f6\'e8\'e8\'f2\'e5 \'f1\'e0 "\'cf\'ee\'e4\'f5\'ee\'e4\'ff\'f9\'ee \'e7\'e0 \'ed\'e0\'f7\'e8\'ed\'e0\'e5\'f9\'e8", "\'cf\'ee\'e4\'f5\'ee\'e4\'ff\'f9\'ee \'e7\'e0 \'f5\'ee\'f0\'e0 \'f1\'fa\'f1 \'f1\'f0\'e5\'e4\'e5\'ed \'ee\'ef\'e8\'f2" \'e8 "\'cf\'ee\'e4\'f5\'ee\'e4\'ff\'f9\'ee \'e7\'e0 \'ed\'e0\'ef\'f0\'e5\'e4\'ed\'e0\'eb\'e8".\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-30T18:11:34.7815533+03:00</DateAdded>
+    <DateModified>2023-05-30T18:14:25.1759528+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-30f856d9-1f2f-47f4-832d-652dfb87055f</UniqueID>
+    <UserID>REQ-8.11</UserID>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <Name>Преглед на актуални мероприятия, свързани с избрания маршрут</Name>
+    <Description>Всеки потребител може да прегледа мероприятията, свързани с потърсената от него пътека.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff\'f2\'e0, \'f1\'e2\'fa\'f0\'e7\'e0\'ed\'e8 \'f1 \'ef\'ee\'f2\'fa\'f0\'f1\'e5\'ed\'e0\'f2\'e0 \'ee\'f2 \'ed\'e5\'e3\'ee \'ef\'fa\'f2\'e5\'ea\'e0.\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-30T18:14:37.5900446+03:00</DateAdded>
+    <DateModified>2023-05-30T18:16:30.4832081+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</UniqueID>
+    <UserID>REQ-70</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на мероприятия по локация</Name>
+    <Description>В отдел "Мероприятия" всеки потребител може да разгледа списък от актуални мероприятия за локацията, на която се намира, като включи локацията на устройството, което използва, и съответно да получи персонализирани предложения за мероприятия.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb "\'cc\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff" \'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e0\'e7\'e3\'eb\'e5\'e4\'e0 \'f1\'ef\'e8\'f1\'fa\'ea \'ee\'f2 \'e0\'ea\'f2\'f3\'e0\'eb\'ed\'e8 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff \'e7\'e0 \'eb\'ee\'ea\'e0\'f6\'e8\'ff\'f2\'e0, \'ed\'e0 \'ea\'ee\'ff\'f2\'ee \'f1\'e5 \'ed\'e0\'ec\'e8\'f0\'e0, \'ea\'e0\'f2\'ee \'e2\'ea\'eb\'fe\'f7\'e8 \'eb\'ee\'ea\'e0\'f6\'e8\'ff\'f2\'e0 \'ed\'e0 \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'ee\'f2\'ee, \'ea\'ee\'e5\'f2\'ee \'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0, \'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'ee \'e4\'e0 \'ef\'ee\'eb\'f3\'f7\'e8 \'ef\'e5\'f0\'f1\'ee\'ed\'e0\'eb\'e8\'e7\'e8\'f0\'e0\'ed\'e8 \'ef\'f0\'e5\'e4\'eb\'ee\'e6\'e5\'ed\'e8\'ff \'e7\'e0 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>63</Sequence>
+    <Type>Functional</Type>
+    <Priority>4</Priority>
+    <DateAdded>2023-05-30T18:23:42.3843798+03:00</DateAdded>
+    <DateModified>2023-05-30T18:26:31.834921+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</UniqueID>
+    <UserID>REQ-71</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Запазване на мероприятие</Name>
+    <Description>В отдел "Мероприятия" всеки потребител може да запази определено мероприятие, което може да прегледа отново в графа "Запазени мероприятия".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2 \'ee\'f2\'e4\'e5\'eb "\'cc\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff" \'e2\'f1\'e5\'ea\'e8 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'e7\'e0\'ef\'e0\'e7\'e8 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'e5, \'ea\'ee\'e5\'f2\'ee \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'ee\'f2\'ed\'ee\'e2\'ee \'e2 \'e3\'f0\'e0\'f4\'e0 "\'c7\'e0\'ef\'e0\'e7\'e5\'ed\'e8 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff".\par
+}
+</RichDescription>
+    <Sequence>64</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-05-30T18:26:34.7845972+03:00</DateAdded>
+    <DateModified>2023-06-01T00:54:25.0070802+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</UniqueID>
+    <UserID>REQ-72</UserID>
+    <ParentID>P-d3caa1ed-b56c-428f-9b23-b0a7cc29ed4b</ParentID>
+    <Name>Преглед на запазени мероприятия</Name>
+    <Description>Регистриран потребител може да преглежда запазените от него мероприятия в секция "Запазени мероприятия".</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e3\'e8\'f1\'f2\'f0\'e8\'f0\'e0\'ed \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'e7\'e0\'ef\'e0\'e7\'e5\'ed\'e8\'f2\'e5 \'ee\'f2 \'ed\'e5\'e3\'ee \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff \'e2 \'f1\'e5\'ea\'f6\'e8\'ff "\'c7\'e0\'ef\'e0\'e7\'e5\'ed\'e8 \'ec\'e5\'f0\'ee\'ef\'f0\'e8\'ff\'f2\'e8\'ff".\par
+}
+</RichDescription>
+    <Sequence>65</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <DateAdded>2023-06-01T00:52:15.4109638+03:00</DateAdded>
+    <DateModified>2023-06-03T16:49:14.4894579+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-06d8cf75-3aba-4984-a5cc-dc5ffb66bc7c</UniqueID>
+    <ParentID>MSS-66f5e881-0c88-47ed-be65-666cd66b8562</ParentID>
+    <Description>Попълва се форма за публикация - заглавие, текстово съдържание, графични изображения.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'ef\'fa\'eb\'e2\'e0 \'f1\'e5 \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff - \'e7\'e0\'e3\'eb\'e0\'e2\'e8\'e5, \'f2\'e5\'ea\'f1\'f2\'ee\'e2\'ee \'f1\'fa\'e4\'fa\'f0\'e6\'e0\'ed\'e8\'e5, \'e3\'f0\'e0\'f4\'e8\'f7\'ed\'e8 \'e8\'e7\'ee\'e1\'f0\'e0\'e6\'e5\'ed\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea9e8e54-c339-4578-8674-12e0cdd65342</UniqueID>
+    <ParentID>MSS-66f5e881-0c88-47ed-be65-666cd66b8562</ParentID>
+    <Description>Потребителят изпраща формата (натиска бутона "Публикувай")</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'ff\'f2 \'e8\'e7\'ef\'f0\'e0\'f9\'e0 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 (\'ed\'e0\'f2\'e8\'f1\'ea\'e0 \'e1\'f3\'f2\'ee\'ed\'e0 "\'cf\'f3\'e1\'eb\'e8\'ea\'f3\'e2\'e0\'e9")\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cc8abd74-e744-48ba-992d-89532d3f879d</UniqueID>
+    <ParentID>MSS-66f5e881-0c88-47ed-be65-666cd66b8562</ParentID>
+    <Description>Публикацията става видима за останалите потребители, които могат да я коментират и рецензират.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'ff\'f2\'e0 \'f1\'f2\'e0\'e2\'e0 \'e2\'e8\'e4\'e8\'ec\'e0 \'e7\'e0 \'ee\'f1\'f2\'e0\'ed\'e0\'eb\'e8\'f2\'e5 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'e8, \'ea\'ee\'e8\'f2\'ee \'ec\'ee\'e3\'e0\'f2 \'e4\'e0 \'ff \'ea\'ee\'ec\'e5\'ed\'f2\'e8\'f0\'e0\'f2 \'e8 \'f0\'e5\'f6\'e5\'ed\'e7\'e8\'f0\'e0\'f2.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <UserID>
+    <DefaultPrefix>UC-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-</DefaultPrefix>
+    <NextValue>8</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-</DefaultPrefix>
+    <NextValue>73</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-0960cb1a-3f64-4bd5-9a05-c5ac092630ea</ParentID>
+    <ReqID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-0960cb1a-3f64-4bd5-9a05-c5ac092630ea</ParentID>
+    <ReqID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-75ea074b-823c-4128-a1c1-48cd57ef712e</ParentID>
+    <ReqID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-e81f6afb-fe6e-4de8-8f82-343fe4fbf2ca</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-bdb71eae-411e-4556-b610-4d0d4cb81101</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-38a33f55-183b-40c1-8978-262278d4f99d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-daf8bf6a-23df-4c5d-96ae-d030fe53a39b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-0ee6d5d5-941f-4d04-975c-9cccab63c112</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-73d7a2d8-d231-4d6b-a389-3846607682f3</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-0a59b05b-6091-40ca-b9af-eaa06e5851ed</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-5968c679-768e-40e6-b8af-8a2ce95f2c04</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-1fb1dd19-a1cb-4927-aa61-4711ce1bf957</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-41e730b6-d9ed-45a0-b38f-f9eed0ad7fe8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-f2befb5e-759c-4877-8b01-79a448c2e6d2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-d8b1880c-7ad3-4ab4-aadf-297d9fc9ac52</ParentID>
+    <ReqID>REQ-cb7533bc-d229-49a8-8325-1197e8caf175</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-d8b1880c-7ad3-4ab4-aadf-297d9fc9ac52</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-d8b1880c-7ad3-4ab4-aadf-297d9fc9ac52</ParentID>
+    <ReqID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-88d6b16e-bd23-405d-8d18-225a113d9dc5</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-88d6b16e-bd23-405d-8d18-225a113d9dc5</ParentID>
+    <ReqID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-88d6b16e-bd23-405d-8d18-225a113d9dc5</ParentID>
+    <ReqID>REQ-cb7533bc-d229-49a8-8325-1197e8caf175</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-11ecc647-54c9-4cb6-ada5-a9ac08013cdb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-7023c332-f97e-4036-8cf1-86d883332b96</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-395d8d4f-0241-431d-914d-9090fca42372</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-41e730b6-d9ed-45a0-b38f-f9eed0ad7fe8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-cb7533bc-d229-49a8-8325-1197e8caf175</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-38a33f55-183b-40c1-8978-262278d4f99d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-0ee6d5d5-941f-4d04-975c-9cccab63c112</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-73d7a2d8-d231-4d6b-a389-3846607682f3</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-7023c332-f97e-4036-8cf1-86d883332b96</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-e81f6afb-fe6e-4de8-8f82-343fe4fbf2ca</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-7023c332-f97e-4036-8cf1-86d883332b96</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-e81f6afb-fe6e-4de8-8f82-343fe4fbf2ca</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-7023c332-f97e-4036-8cf1-86d883332b96</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-e81f6afb-fe6e-4de8-8f82-343fe4fbf2ca</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-395d8d4f-0241-431d-914d-9090fca42372</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-41e730b6-d9ed-45a0-b38f-f9eed0ad7fe8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-e350a584-d956-43e6-b47d-5f6e0c35c462</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-a23845ee-6a9e-4858-87dd-db7e65a146a5</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-8338847a-f647-4f98-90c8-f79b08465e62</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-da0b5044-87f7-46d6-a4ea-687e1f7f974d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-f45ed0b3-a2c5-4598-b1ce-027afec2d4cb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-7023c332-f97e-4036-8cf1-86d883332b96</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-310cfa5b-e7c7-4f7c-ba2d-51963e04b972</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-cfaaf2a3-03db-4040-b35e-19aa311c9545</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-e81f6afb-fe6e-4de8-8f82-343fe4fbf2ca</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-b668d8ae-550c-452a-a032-9db4a903c66b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-a49f747c-251b-4c00-838e-cc7389fa615f</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-a82385f4-236b-4951-8ad9-0777566c675d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-f7b384fa-00d2-421f-913f-dabbac0c79b2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-41e203ce-28fc-4fd4-a885-71f51884abf1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-0bd9694f-ef8f-492a-8112-f184f9b914bb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-fb6524ce-181b-4149-b111-41e414b33d6c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-8650662e-32e9-4fd8-9876-e308a81d82b8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-4f31fcc6-da6c-433b-b41e-0068ac388b70</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-f2befb5e-759c-4877-8b01-79a448c2e6d2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-c879b289-a0cc-45f5-8546-68b07d0e6869</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-f1868dcf-e970-46a3-9fb2-41403e99cd35</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-daf8bf6a-23df-4c5d-96ae-d030fe53a39b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-87938d7c-3d45-432b-9452-3c9214fb8cde</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-f2dc9109-9c52-4a95-845d-5eb48c73d5b4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-dd71f632-8425-4dab-8ece-782de33f50ff</ParentID>
+    <ReqID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-5db5e90d-a7e9-4b97-a20e-5634dc9b55c2</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <ReqID>REQ-d2bceed4-2e17-46dd-911b-3b6aeec0e38a</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ParentID>
+    <ReqID>REQ-24a53e35-f6db-46b4-bd53-ccc2f8a4faa1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-cb7533bc-d229-49a8-8325-1197e8caf175</ParentID>
+    <ReqID>REQ-11ecc647-54c9-4cb6-ada5-a9ac08013cdb</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ParentID>
+    <ReqID>REQ-8ee4037f-a7ed-4ce4-82d4-4c1cd90ad2e1</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ParentID>
+    <ReqID>REQ-18d2c696-68cb-4876-b4ba-f89f2ad2060c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ParentID>
+    <ReqID>REQ-bedf4595-1c49-45a9-b598-16e3e6288886</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ParentID>
+    <ReqID>REQ-eeba5e37-a81e-46bd-bcc7-df0927beab3b</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ParentID>
+    <ReqID>REQ-d1c92b4b-4358-4940-90bc-3b58ab0b0679</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-29c3fd36-5241-42f6-a25a-a734c7dcb650</ParentID>
+    <ReqID>REQ-70ae5a26-0cc1-4461-a615-2113e6a747d8</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ParentID>
+    <ReqID>REQ-39b6e93b-5331-46ee-a68f-b90eeeff46d9</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ParentID>
+    <ReqID>REQ-37fd5c54-5337-4375-af20-3bf83f483d8d</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9a893b1b-3b3f-4e61-b297-672983d80ef5</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-1118da75-b43a-4203-9a06-9be4c39e98bc</ParentID>
+    <ReqID>REQ-23c95260-ae2c-4b58-9aeb-59fe873a3af4</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ParentID>
+    <ReqID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-32d6ea5e-61fa-44c6-9f9e-29c01d98e76c</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-9656788e-e2b9-4bf5-8d43-f83d076b069c</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-942e403b-39ef-4428-9d0d-39d34f65f0f8</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-f29a774e-af5b-49d0-a7d4-41ba884b1bf3</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-198d02c2-48fc-4653-b20f-383bab52da8f</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-339856c7-934c-48f9-a924-8fbfb6f7e666</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <ReqReq>
+    <ParentID>REQ-fb497a64-ed00-4ca2-af78-2ae1454c8bde</ParentID>
+    <ReqID>REQ-75257ab6-f6a5-4b55-9a0b-20de90db0e78</ReqID>
+  </ReqReq>
+  <BuiltInField>
+    <UniqueID>1</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the use case.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>2</UniqueID>
+    <Name>Level</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>The level of detail in the use case.</Description>
+    <DefaultValue />
+    <Choices>Summary;User;Subfunction</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>3</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>An indication of the difficulty of implementation.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>4</UniqueID>
+    <Name>UseCaseStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case specification.</Description>
+    <DefaultValue />
+    <Choices>Name Only;Initial;Base;Complete;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>5</UniqueID>
+    <Name>ImplStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case implementation.</Description>
+    <DefaultValue />
+    <Choices>Scheduled;Started;Partially Complete;Complete;Partially Deferred;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>6</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this use case.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>7</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this use case is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>100</UniqueID>
+    <Name>ReqType</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>The type of requirement.</Description>
+    <DefaultValue>Non-functional</DefaultValue>
+    <Choices>Functional;Non-functional;Business Rule;Constraint;Performance;Test;Change Request</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>101</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the requirement.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>102</UniqueID>
+    <Name>Source</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Where did the requirement originate?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>103</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the requirement.</Description>
+    <DefaultValue />
+    <Choices>Proposed;Approved;Rejected;Deferred;Implemented;Mandatory;Obsolete</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>104</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this requirement?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>105</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this requirement is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>200</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>1</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of this actor's interactions with the system.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>300</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority for resolving issue.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>301</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of issue.</Description>
+    <DefaultValue />
+    <Choices>New;Assigned;Resolved;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>302</UniqueID>
+    <Name>Type</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of issue.</Description>
+    <DefaultValue />
+    <Choices>Question;Approval;Clarification;Defect;Feature</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>303</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of issue to be resolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>304</UniqueID>
+    <Name>Risk</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Risk to project while unresolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>400</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of test scenario.</Description>
+    <DefaultValue />
+    <Choices>New;Partially defined;Defined</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>401</UniqueID>
+    <Name>TestType</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of test.</Description>
+    <DefaultValue />
+    <Choices>Acceptance;Usability;Performance;Load;Security;Bounds;White box</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>402</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of test.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>403</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the test scenario.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>501</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the user story.</Description>
+    <DefaultValue />
+    <Choices>Must;Should;Could;Won't</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>502</UniqueID>
+    <Name>Size</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>The relative complexity of the user story.</Description>
+    <DefaultValue />
+    <Choices>X-Small;Small;Med;Large;X-Large</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>503</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this user story?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>504</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the user story.</Description>
+    <DefaultValue />
+    <Choices>Backlog;Doing;Review;Done</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+    <MultiChoice>false</MultiChoice>
+  </BuiltInField>
+</UCTDataSet>
